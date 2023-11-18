@@ -22,15 +22,15 @@ function askForMissingDetails(list) {
         dev.question = `Hi, could you please provide your ${missingDetails.join(' or ')}.`;
     });
 
-    //return developersWithMissingDetails;
-
+    return developersWithMissingDetails;
+}
 
     //----- JC ----//
     // Pese a que tu implementación no es mala,
     // aquí te dejo un ejemplo de como realizarlo
     // sin utilizar un método compuesto como filter
 
-    const propertys = Object.keys(list[0]);
+   /* const propertys = Object.keys(list[0]);
     const answer = [];
 
     for (let i = 0; i < list.length; i++) {
@@ -46,4 +46,4 @@ function askForMissingDetails(list) {
 
     return answer;
 
-}
+*/
